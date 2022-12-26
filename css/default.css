@@ -1,0 +1,18 @@
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-color: #ffffff;
+  --second-color: #b79f9f;
+  --main-bg-color: black;
+}

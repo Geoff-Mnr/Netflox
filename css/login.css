@@ -1,0 +1,141 @@
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-color: #ffffff;
+  --second-color: #b79f9f;
+  --main-bg-color: black;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main:before {
+  content: "";
+  background-image: url(../images/background.jpg);
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.container_logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo__netflox {
+  padding: 2em;
+  width: 200px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.formulaire_login {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 7px;
+  width: 375px;
+  height: 600px;
+  padding: 4em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.pw {
+  padding-top: 1em;
+}
+
+#email {
+  width: 350px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 1em;
+  color: #7e6868;
+}
+
+#password {
+  width: 350px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 1em;
+  color: #7e6868;
+}
+
+.log {
+  padding-top: 4em;
+}
+
+.button_submit {
+  width: 350px;
+  height: 55px;
+  border-radius: 5px;
+  background: #fd0000;
+  color: #ffffff;
+  font-size: 1.25em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.rm__me{
+    padding-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.id{
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    background: white;
+}
+
+span{
+    font-size: 1em;
+    padding-left: .5em;
+}
+
+
+
