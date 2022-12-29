@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-  --main-color: #ffffff;
+  --main-color: #f3f3f3;
   --second-color: #b79f9f;
   --main-bg-color: black;
 }
@@ -113,7 +113,7 @@ h1 {
   height: 55px;
   border-radius: 5px;
   background: #fd0000;
-  color: #ffffff;
+  color: #f3f3f3;
   font-size: 1.25em;
   font-weight: 700;
   cursor: pointer;

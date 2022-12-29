@@ -484,12 +484,14 @@ footer {
   margin-top: 2em;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   padding: 2em;
+  margin-left: 15em;
+  margin-right: 15em;
 }
 
 .text-footer {
-  color: var(--second-color);
+  
   font-style: normal;
   font-weight: 400;
   font-size: 1.5em;
@@ -500,7 +502,7 @@ footer {
 .link-footer {
   display: flex;
   flex-direction: column;
-  height: 10em;
+  height: 180px;
   flex-wrap: wrap;
 }
 
