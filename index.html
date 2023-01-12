@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="Images/favicon_netflox.png" />
-    
+
     <title>Netflox</title>
 </head>
 
@@ -24,8 +24,16 @@
             <nav class="nav">
                 <img src="images/logo.png" class="logo">
                 <div class="button">
-                    <button class="language"><img src="images/langue-White.png" class="language-logo">Français<img
-                            src="images/la-fleche.png" class="arrow-down"></button>
+
+                    <div class="change_language">
+                        <button class="language"><img src="images/langue-White.png" class="language-logo">Français<img
+                                src="images/la-fleche.png" class="arrow-down"></button>
+
+                        <div class="language_extension">
+                            <a class="language_change" href="index_En.html">English</a>
+                            <a class="language_change" href="index_Ndls.html">Nederlands</a>
+                        </div>
+                    </div>
                     <button class="login"><a href="login.html" class="link-login">S'identifier</a></button>
                 </div>
             </nav>
@@ -37,8 +45,8 @@
                 <h3>Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre
                     abonnement.</h3>
                 <div class="email-information">
-                    <input type="email" id="email" placeholder="Adresse E-mail"><button class="start">Commencer<img
-                            src="images/la-fleche-droite.png" class="arrow-right"></button>
+                    <input type="email" id="email" placeholder="Adresse E-mail"><a href="start.html" class="link_start"><button class="start">Commencer<img
+                            src="images/la-fleche-droite.png" class="arrow-right"></button></a>
                 </div>
             </div>
 
@@ -90,12 +98,12 @@
 
             <div class="section_left">
 
-                
+
 
                 <div class="animation_loader">
-                    
+
                     <img alt="Netflix_stangerthings" class="picture-iphone" src="Images/picture-section-2-bis.jpg">
-                    
+
                     <div class="animation-iphone">
                         <img class="main-picture-animation" alt="strangerthings"
                             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">

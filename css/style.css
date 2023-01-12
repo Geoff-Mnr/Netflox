@@ -17,8 +17,6 @@ body {
   --main-bg-color: black;
 }
 
-
-
 body {
   background-color: var(--main-bg-color);
   color: var(--main-color);
@@ -93,6 +91,7 @@ header:before {
   font-size: 16px;
   line-height: 20px;
   color: var(--main-color);
+  cursor: pointer;
 }
 
 .language-logo {
@@ -103,6 +102,32 @@ header:before {
 .arrow-down {
   width: 15px;
   height: 15px;
+}
+
+.language_change {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f3f3f3;
+  width: 148px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.language_change:hover {
+  background: #f3f3f3;
+}
+
+.language_extension {
+  display: none;
+  position: absolute;
+  border: #f3f3f3 solid 1px;
+}
+
+.language:hover + .language_extension {
+  display: block;
 }
 
 .login {
@@ -165,7 +190,12 @@ header:before {
   font-style: normal;
   font-weight: 500;
   font-size: 1.75em;
-  color: var(--main-color);
+  cursor: pointer;
+  color: #f3f3f3;
+}
+
+.link_start {
+  text-decoration: none;
 }
 
 .border {
@@ -280,7 +310,6 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .picture-iphone {
@@ -288,12 +317,10 @@ section {
   z-index: 0;
   width: 45%;
   position: relative;
-  
-  
 }
 
 .animation-iphone {
- position: absolute;
+  position: absolute;
   height: 75px;
   width: 325px;
   border: #b79f9f solid 2px;
@@ -491,7 +518,6 @@ footer {
 }
 
 .text-footer {
-  
   font-style: normal;
   font-weight: 400;
   font-size: 1.5em;
@@ -543,4 +569,3 @@ footer {
 span {
   padding-top: 2em;
 }
-

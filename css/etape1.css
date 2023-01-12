@@ -1,0 +1,181 @@
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+header{
+    width: auto;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px #ccc solid;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+.logo {
+    width: 200px;
+    height: auto;
+  }
+
+.login_link{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+
+.login_link:hover{
+    text-decoration: underline;
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    
+}
+
+.device{
+    width: 350px;
+    height: 100px;
+}
+
+.container{
+    width: 50%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding: 5em;
+}
+
+.txt{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat',sans-serif;
+}
+
+p{
+    font-weight: 500;
+    margin: 0;
+}
+
+span{
+    font-weight: 800;
+}
+
+h1{
+    font-weight: 700;
+    line-height: 1.5em;
+    font-size: 2.2em;
+    margin-top: 1em;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 2em;
+    margin: 0;
+    
+}
+
+
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .pw {
+    padding-top: 1em;
+  }
+  
+  #email {
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 1em;
+    color: #7e6868;
+  }
+  
+  #password {
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 1em;
+    color: #7e6868;
+  }
+  
+  .log {
+    padding-top: 2em;
+  }
+  
+  .button_next {
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    background: #fd0000;
+    color: #f3f3f3;
+    cursor: pointer;
+    border: #fd0000;
+    font-size: 1.75em;
+    font-weight: 500;
+  }
+
+  .button_next:hover{
+    background: #000;
+    color: #fd0000;
+    box-shadow: 0 0 11px rgba(33,33,33,.6); 
+    transition: all 1s ease-in-out;
+  
+}
+  
+  .rm__me{
+      padding-top: 2em;
+      display: flex;
+      align-items: center;
+  }
+  
+  .id{
+      text-decoration: none;
+      width: 25px;
+      height: 25px;
+      background: white;
+  }
+
+  .txt_checkbox{
+    margin-left: 2em;
+    font-weight: 500;
+    font-size: 1.25em;
+  }
+  
+  .yes {
+    transform: scale(2);
+    margin-right: 11px;
+  }
+
+  footer{
+    height: 100px;
+    background: #f3f3f3;
+}
