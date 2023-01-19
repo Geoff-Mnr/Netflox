@@ -1,0 +1,19 @@
+.steps_next {
+  border-style: none;
+  color: #f3f3f3;
+  font-size: 1.75em;
+  font-weight: 500;
+  background: #fd0000;
+  width: 400px;
+  height: 75px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 2em;
+}
+
+.steps_next:hover {
+  background: #000;
+  color: #fd0000;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.6);
+  transition: all 1s ease-in-out;
+}

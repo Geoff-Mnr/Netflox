@@ -1,0 +1,17 @@
+input[type="password"] {
+  width: 85%;
+  height: 65px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 1em;
+  color: #7e6868;
+}
+
+input[type="email"] {
+  width: 85%;
+  height: 65px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 1em;
+  color: #7e6868;
+}
