@@ -34,7 +34,7 @@ ul {
   
 }
 
-.link_user {
+.link_user_profil {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +47,7 @@ li {
 }
 
 
-.picture {
+.picture_profil {
   width: 200px;
   height: 200px;
   border-radius: 5px;
@@ -60,7 +60,7 @@ span {
   padding: 1em;
 }
 
-li .picture:hover{
+li .picture_profil:hover{
   border: solid 3px #b79f9f;;
   margin: -3px;
 }

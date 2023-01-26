@@ -57,7 +57,7 @@ main:before {
   height: auto;
 }
 
-.container {
+.container_login {
   display: flex;
   justify-content: center;
 }
@@ -82,11 +82,8 @@ h1 {
   font-size: 2.5em;
 }
 
-.pw {
-  padding-top: 1em;
-}
-
-#email {
+#email_login {
+  margin-top: 1em;
   width: 350px;
   height: 55px;
   border-radius: 5px;
@@ -95,7 +92,9 @@ h1 {
   color: #7e6868;
 }
 
-#password {
+#password_login {
+  
+  margin-top: .5em;
   width: 350px;
   height: 55px;
   border-radius: 5px;
@@ -104,11 +103,8 @@ h1 {
   color: #7e6868;
 }
 
-.log {
-  padding-top: 4em;
-}
-
-.button_submit {
+.button_submit_login {
+  margin-top: 2em;
   width: 350px;
   height: 55px;
   border-radius: 5px;
@@ -119,17 +115,10 @@ h1 {
   cursor: pointer;
 }
 
-.rm__me{
+.remember_me_login{
     padding-top: 1em;
     display: flex;
     align-items: center;
-}
-
-.id{
-    text-decoration: none;
-    width: 25px;
-    height: 25px;
-    background: white;
 }
 
 span{

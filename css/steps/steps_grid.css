@@ -1,75 +1,26 @@
-@import url(steps_header.css);
-@import url(steps_img.css);
-@import url(steps_button.css);
-
-::before,
-::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
+.step_3 {
   height: 100vh;
 }
 
-main {
+.main_step3 {
+  height: auto;
+}
+
+.container_steps_grid {
+  padding: 3rem;
+  width: 100%;
+
   display: flex;
   justify-content: center;
 }
 
-.container {
-  margin-top: 2em;
-  width: 70%;
-  padding: 3em;
-}
-
-.steps {
-  width: 100%;
+.steps_text_grid {
   font-family: "Montserrat", sans-serif;
+  width: 80%;
   text-align: left;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-p {
-  font-weight: 500;
-  margin: 0;
-}
-
-span {
-  font-weight: 800;
-}
-
-h1 {
-  font-weight: 700;
-  line-height: 1.5em;
-  font-size: 2.2em;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 80%;
-}
-
-li {
-  display: flex;
-  justify-content: space-around;
-  padding: 0.25em;
-}
-
-ul li p {
-  width: 85%;
-  text-align: left;
 }
 
 .plan {
@@ -130,9 +81,4 @@ ul li p {
 .note {
   margin-top: 4em;
   font-weight: 400;
-}
-
-footer {
-  height: 100px;
-  background: #f3f3f3;
 }

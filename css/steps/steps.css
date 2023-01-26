@@ -1,11 +1,11 @@
-.container {
+.container_steps {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.steps {
+.steps_text {
   width: 65%;
   display: flex;
   flex-direction: column;
