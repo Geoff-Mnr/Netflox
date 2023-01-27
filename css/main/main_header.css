@@ -1,0 +1,71 @@
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 8vh;
+  padding: 0 3rem;
+  position: fixed;
+  width: 100%;
+  transition: 200ms ease-in-out background-color, 200ms ease-in-out box-shadow;
+  font-family: Montserrat, sans-serif;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav_left_main {
+  display: flex;
+  align-items: center;
+}
+.nav_right_main {
+  display: flex;
+  align-items: center;
+  margin-right: 6rem;
+}
+
+.header_main_img_logo {
+  width: 100px;
+  height: 35px;
+}
+
+.header_profil_img {
+  width: 45px;
+  height: 45px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.1rem;
+  text-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.6);
+  transition: 200ms ease-in-out background-color, 200ms ease-in-out color;
+}
+
+.active_nav {
+  background: linear-gradient(
+    0deg,
+    rgba(14, 14, 14, 1) 0%,
+    rgba(14, 14, 14, 1) 95%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.6);
+}
+.active_nav ul li a,
+.active_nav .logo {
+  color: #f3f3f3;
+}
+.active_nav .nav_links a:hover {
+  color: #fff;
+}
