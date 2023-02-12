@@ -1,4 +1,6 @@
-.steps_next {
+ /*bouton placé dans main_step.html, step2.html, step3.html*/
+ 
+ button {
   border-style: none;
   color: #f3f3f3;
   font-size: 1.75em;
@@ -11,7 +13,7 @@
   margin-top: 2em;
 }
 
-.steps_next:hover {
+button:hover {
   background: #000;
   color: #fd0000;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.6);

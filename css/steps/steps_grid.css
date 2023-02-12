@@ -1,15 +1,11 @@
-.step_3 {
-  height: 100vh;
-}
 
 .main_step3 {
   height: auto;
 }
 
-.container_steps_grid {
+.steps_grid {
   padding: 3rem;
   width: 100%;
-
   display: flex;
   justify-content: center;
 }

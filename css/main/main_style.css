@@ -1,4 +1,5 @@
-@import url('main_header.css');
+@import url("main_header.css");
+@import url("main_list_movies.css");
 
 ::before,
 ::after {
@@ -7,12 +8,38 @@
   padding: 0;
 }
 
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #141414;
+  font-family: Montserrat, sans-serif;
+  color: #f3f3f3;
 }
 
+<<<<<<< HEAD
+main {
+  margin-top: 1em;
+  height: 70vh;
+}
+
+footer {
+  border-top: 1px solid #000;
+  width: 100%;
+  height: 100px;
+  background-color: #141414;
+  color: #f3f3f3;
+  display: flex;
+  align-items: center;
+}
+=======
 section {
     width: 100%;
     height: 100vh;
@@ -22,3 +49,4 @@ section {
 section:last-of-type {
     background-image: url(https://unsplash.it/1601/900);
 }
+>>>>>>> parent of 2b5e5d4 (Add video)

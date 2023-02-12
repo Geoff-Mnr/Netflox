@@ -1,0 +1,26 @@
+main {
+  padding: 2em;
+}
+
+main .movies {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+main .movies h1 {
+  margin: 0;
+}
+
+main .movies img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+main .movies ul {
+  display: flex;
+}
+
+main .movies li + li {
+  padding-left: 0.75em;
+}

@@ -31,10 +31,9 @@ ul {
   align-items: center;
   justify-content: center;
   list-style-type: none;
-  
 }
 
-.link_user_profil {
+.profile_user {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,24 +45,20 @@ li {
   position: relative;
 }
 
-
-.picture_profil {
+.profile_img {
   width: 200px;
   height: 200px;
   border-radius: 5px;
 }
 
-span {
+li span {
   text-decoration: none;
   font-weight: 500;
-  color: #b79f9f;;
+  color: #b79f9f;
   padding: 1em;
 }
 
-li .picture_profil:hover{
-  border: solid 3px #b79f9f;;
+li .profile_img:hover {
+  border: solid 3px #b79f9f;
   margin: -3px;
 }
-
-
-

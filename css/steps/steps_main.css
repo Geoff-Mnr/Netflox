@@ -1,9 +1,11 @@
-@import url(steps/steps_header.css);
-@import url(steps/steps.css);
-@import url(steps/inputs.css);
-@import url(steps/steps_img.css);
-@import url(steps/steps_button.css);
-@import url(steps/steps_grid.css);
+/*css principal pour toutes les étapes + import des différents éléments des pages*/
+
+@import url(steps_header.css);
+@import url(steps.css);
+@import url(inputs.css);
+@import url(steps_img.css);
+@import url(steps_button.css);
+@import url(steps_grid.css);
 
 
 ::before,

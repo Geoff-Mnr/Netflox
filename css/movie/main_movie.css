@@ -1,0 +1,93 @@
+@import url(bg_movie.css);
+
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f1f1f1;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.movie {
+  width: 850px;
+  background-color: #141414;
+  border-radius: 5px;
+}
+
+.movie_characteristics {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.movie_persons {
+  width: 50%;
+}
+
+span.recommandation {
+  font-weight: 600;
+  color: #46d369;
+}
+
+span.movie_year {
+  padding: 0.5em;
+}
+
+span.movie_duration {
+  padding: 0.5em;
+}
+
+img.movie_year {
+  width: 40px;
+  height: 40px;
+  padding: 0.5em;
+}
+
+span.movie_quality {
+  padding: 0.5em;
+  border: 1px solid #f3f3f3;
+}
+
+span.grey_text {
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #786c6c;
+}
+
+.movie_description {
+  display: flex;
+}
+
+.movie_description p {
+  font-size: 0.75em;
+  font-weight: 100;
+}
+
+.movie_information {
+  padding: 2em 1em 2em 1em;
+}
+
+.movie_synopsys h1 {
+  font-weight: 600;
+}
+
+.movie_synopsys p {
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.25em;
+}
