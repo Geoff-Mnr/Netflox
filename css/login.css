@@ -5,21 +5,11 @@
   padding: 0;
 }
 
-html,
 body {
   padding: 0;
   margin: 0;
-}
-
-:root {
-  --main-color: #f3f3f3;
-  --second-color: #b79f9f;
-  --main-bg-color: black;
-}
-
-body {
-  background-color: var(--main-bg-color);
-  color: var(--main-color);
+  background-color: #000;
+  color: #f3f3f3;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -46,23 +36,23 @@ main:before {
   opacity: 0.3;
 }
 
-.container_logo {
+.logo {
   display: flex;
-  justify-content: flex-start;
 }
 
-.logo__netflox {
+.logo_netflox {
   padding: 2em;
   width: 200px;
   height: auto;
 }
 
-.container_login {
+.login_container {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 
-.formulaire_login {
+.login_formulaire {
   display: flex;
   flex-direction: column;
   background: rgba(0, 0, 0, 0.7);
@@ -72,17 +62,17 @@ main:before {
   padding: 4em;
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
 form {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-h1 {
-  font-size: 2.5em;
-}
-
-#email_login {
+#login_email {
   margin-top: 1em;
   width: 350px;
   height: 55px;
@@ -92,9 +82,8 @@ h1 {
   color: #7e6868;
 }
 
-#password_login {
-  
-  margin-top: .5em;
+#login_password {
+  margin-top: 0.5em;
   width: 350px;
   height: 55px;
   border-radius: 5px;
@@ -103,7 +92,7 @@ h1 {
   color: #7e6868;
 }
 
-.button_submit_login {
+.login_submit {
   margin-top: 2em;
   width: 350px;
   height: 55px;
@@ -115,16 +104,13 @@ h1 {
   cursor: pointer;
 }
 
-.remember_me_login{
-    padding-top: 1em;
-    display: flex;
-    align-items: center;
+.login_remember_me {
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
 }
 
-span{
-    font-size: 1em;
-    padding-left: .5em;
+.remember_me_login span {
+  font-size: 1em;
+  padding-left: 0.5em;
 }
-
-
-
