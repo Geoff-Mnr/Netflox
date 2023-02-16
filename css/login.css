@@ -5,7 +5,13 @@
   padding: 0;
 }
 
+/*même principe que la page index.html sauf que je l'ai utilisé pour tout le body*/
 body {
+  position: relative;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 0;
   margin: 0;
   background-color: #000;
@@ -13,15 +19,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-main {
-  position: relative;
-  height: 100vh;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-main:before {
+body:before {
   content: "";
   background-image: url(../images/background.jpg);
   position: absolute;
@@ -36,8 +34,9 @@ main:before {
   opacity: 0.3;
 }
 
-.logo {
-  display: flex;
+/*header qui fait 100% avec le logo Netflox*/
+header {
+  width: 100%;
 }
 
 .logo_netflox {
@@ -46,12 +45,15 @@ main:before {
   height: auto;
 }
 
-.login_container {
+
+
+main{
   display: flex;
   justify-content: center;
   margin-top: 3rem;
 }
 
+/*container pour le formulaire login*/
 .login_formulaire {
   display: flex;
   flex-direction: column;
@@ -72,6 +74,7 @@ form {
   flex-direction: column;
 }
 
+/*input mail*/
 #login_email {
   margin-top: 1em;
   width: 350px;
@@ -81,7 +84,7 @@ form {
   font-size: 1em;
   color: #7e6868;
 }
-
+/*input passeword*/
 #login_password {
   margin-top: 0.5em;
   width: 350px;
@@ -91,7 +94,7 @@ form {
   font-size: 1em;
   color: #7e6868;
 }
-
+/*input pour envoyer*/
 .login_submit {
   margin-top: 2em;
   width: 350px;
@@ -104,6 +107,7 @@ form {
   cursor: pointer;
 }
 
+/*input checkbox*/
 .login_remember_me {
   padding-top: 1em;
   display: flex;

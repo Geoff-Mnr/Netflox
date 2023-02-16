@@ -7,27 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <title>Netflox | Login</title>
     <link rel="stylesheet" href="../css/login.css">
     <link rel="icon" type="image/png" href="../images/favicon_netflox.png" />
 </head>
 
 <body>
+    <header>
+        <a href="../index.html"><img src="../images/logo.png" alt="logo Netflox" class="logo_netflox"></a>
+    </header>
     <main>
-        <div class="logo"><a href="../index.html"><img src="../images/logo.png" alt="logo" class="logo_netflox"></a></div>
-            <div class="login_container">
-                <div class="login_formulaire">
-                    <h1>S'identifier</h1>
-                    <form action="profil.html">
-                    <input type="email" id="login_email" placeholder="Adresse E-mail">
-                    <input type="password" id="login_password" placeholder="Mot de Passe">
-                    <input type="submit" value="S'identifier" class="login_submit">
-                    </form>
-                    <div class="remember_me_login">
-                    <input type="checkbox" id="login_rememberme" name="rememberme">
-                    <span>Se souvenir de moi</span>
-                </div>
+        <!--Formulaire pour se loguer sur le site-->
+        <div class="login_formulaire">
+            <h1>S'identifier</h1>
+            <form action="profil.html">
+                <input type="email" id="login_email" placeholder="Adresse E-mail">
+                <input type="password" id="login_password" placeholder="Mot de Passe">
+                <input type="submit" value="S'identifier" class="login_submit">
+            </form>
+            <!--Utilisation d'un check box dans une dix pour bien aligner les éléments en flex-->
+            <div class="remember_me_login">
+                <input type="checkbox" id="login_rememberme" name="rememberme">
+                <span>Se souvenir de moi</span>
             </div>
         </div>
     </main>
