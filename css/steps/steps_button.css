@@ -1,8 +1,13 @@
  /*bouton placé dans main_step.html, step2.html, step3.html*/
  
- button {
+ .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   border-style: none;
   color: #f3f3f3;
+  font-family: 'Montserrat',sans-serif;
   font-size: 1.75em;
   font-weight: 500;
   background: #fd0000;
@@ -13,7 +18,7 @@
   margin-top: 2em;
 }
 
-button:hover {
+.button:hover {
   background: #000;
   color: #fd0000;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.6);

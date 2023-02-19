@@ -8,12 +8,8 @@ nav {
   position: fixed;
   transition: 200ms ease-in-out background-color, 200ms ease-in-out box-shadow;
   font-family: Montserrat, sans-serif;
-<<<<<<< HEAD
   background-color: rgba(14, 14, 14, 0.2);
   z-index: 1;
-=======
-  background-color: rgba(0, 0, 0, 0.1);
->>>>>>> parent of 2b5e5d4 (Add video)
 }
 
 nav .menu {
@@ -76,7 +72,6 @@ header ul li {
 .active_nav .logo {
   color: #f3f3f3;
 }
-<<<<<<< HEAD
 .active_nav ul li a:hover {
   color: #f3F3F3;
   font-weight: 500;
@@ -84,8 +79,3 @@ header ul li {
 
 
 
-=======
-.active_nav .nav_links a:hover {
-  color: #fff;
-}
->>>>>>> parent of 2b5e5d4 (Add video)
