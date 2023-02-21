@@ -1,4 +1,5 @@
 
+/*Navbar qui est fixé transparante */
 nav {
   width: 100%;
   display: flex;
@@ -6,9 +7,12 @@ nav {
   justify-content: space-between;
   min-height: 8vh;
   position: fixed;
+  /*Transition*/
   transition: 200ms ease-in-out background-color, 200ms ease-in-out box-shadow;
   font-family: Montserrat, sans-serif;
+  /*Mettre la navbar transparante*/
   background-color: rgba(14, 14, 14, 0.2);
+  /*Mettre la navbar au dessus de la video*/
   z-index: 1;
 }
 
@@ -37,6 +41,7 @@ nav.profile {
 header video{
   width: 100%;
   position: relative;
+  /*Pour etre en dessous de la navbar*/
   z-index: 0;
 }
 
@@ -50,6 +55,7 @@ header ul li {
 }
 
  header a {
+  /*Mise en place du menu dans la navbar*/
   color: #fff;
   text-decoration: none;
   display: inline-block;
@@ -60,6 +66,7 @@ header ul li {
 }
 
 .active_nav {
+  /*Quand la classe est active (au scroll) la nav bar change de couleur*/
   background: linear-gradient(
     0deg,
     rgba(14, 14, 14, 1) 0%,
@@ -68,11 +75,9 @@ header ul li {
   );
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.6);
 }
-.active_nav ul li a,
-.active_nav .logo {
-  color: #f3f3f3;
-}
+
 .active_nav ul li a:hover {
+  /*Mettre les liens en plus gras quand on passe au dessus après le scroll*/
   color: #f3F3F3;
   font-weight: 500;
 }

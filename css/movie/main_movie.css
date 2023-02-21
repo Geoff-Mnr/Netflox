@@ -22,7 +22,7 @@ p {
   margin: 0;
   padding: 0;
 }
-
+/*Fiche pour le film (container)*/
 .movie {
   width: 850px;
   background-color: #141414;
@@ -38,7 +38,7 @@ p {
 .movie_persons {
   width: 50%;
 }
-
+/*éléments avec les infos du film sur une ligne*/
 span.recommandation {
   font-weight: 600;
   color: #46d369;

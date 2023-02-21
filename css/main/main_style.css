@@ -30,6 +30,7 @@ main {
 }
 
 footer {
+  /*Utilisation d'un background dans le footer*/
   border-top: 1px solid #000;
   width: 100%;
   height: 100px;

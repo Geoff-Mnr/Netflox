@@ -17,8 +17,9 @@
 <body>
         <!--Page principale avec les différents films-->
         <header id="Accueil">
-                <!--header avec une navbar et une video (utilisation de js pour changer la couleur de la navbar au scroll )-->
+                <!--Header avec une navbar et une video (utilisation de js pour changer la couleur de la navbar au scroll )-->
                 <nav>
+                        <!--Container pour avoir à gauche le logo et le menu-->
                         <div class="menu">
                                 <img src="../images/logo.png" alt="" class="header_main_img_logo">
                                 <ul>
@@ -28,11 +29,13 @@
                                         <li><a href="#News">Nouvautés</a></li>
                                 </ul>
                         </div>
+                        <!--Container pour pour pouvoit placer l'image à droite dans la navbar-->
                         <div class="profile">
                                 <img src="../images/hero.png" alt="profil" class="header_profil_img">
                         </div>
 
                 </nav>
+                <!--Video qui tourne en boucle-->
                 <video autoplay="" playsinline="" muted="" loop="">
                         <source src="../video/spider-man.mov" type="video/mp4">
                 </video>
@@ -42,6 +45,7 @@
                 <!--Utilisation d'un container pour mettre les 3 catégories de films et utilisation de flexbox-->
                 <div class="movies">
                         <h1 id="News">Nouveautés</h1>
+                        <!--Liens avec les films img vers une page html-->
                         <ul>
                                 <li><a href="movies/asterix_movie.html"> <img src="../images/movies/Asterix.webp"
                                                         alt="film Astérix" /></a></li>
@@ -103,7 +107,7 @@
         </main>
         <footer><span>Netflox - Geoff Mnr - 2023</span></footer>
 </body>
-
+<!--lien vers script js pour le header-->
 <script src="../js/main_header.js"></script>
 
 </html>

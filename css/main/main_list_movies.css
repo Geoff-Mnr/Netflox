@@ -22,5 +22,6 @@ main .movies ul {
 }
 
 main .movies li + li {
+  /*Alignement des images rapport h1*/
   padding-left: 0.75em;
 }

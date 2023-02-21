@@ -1,8 +1,9 @@
-
+/*structure de la page step3 un peu différente car il y a une grille*/
 .main_step3 {
   height: auto;
 }
 
+/*container qui va englober toute la grille*/
 .steps_grid {
   padding: 3rem;
   width: 100%;
@@ -28,12 +29,15 @@
   justify-content: flex-end;
 }
 
+
+/*container pour les cubes*/
 .container_cube {
   width: 35%;
   display: flex;
   justify-content: center;
 }
 
+/*cube de couleur rouge avec texte dedans*/
 .cube {
   width: 150px;
   height: 150px;
@@ -49,10 +53,11 @@
   justify-content: center;
 }
 
+/*container pour les prix*/
 .container_price {
   margin-top: 2em;
 }
-
+/*container pour le titre et la description*/
 .abonnement {
   display: flex;
 }
@@ -73,7 +78,7 @@
   width: 25px;
   height: 25px;
 }
-
+/*paragraphe en dessous de la grille*/
 .note {
   margin-top: 4em;
   font-weight: 400;
