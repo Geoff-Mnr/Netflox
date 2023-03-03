@@ -28,7 +28,7 @@ main {
 }
 
 /*liste avec les 4 éléments profil img et texte*/
-ul {
+.profile_selection {
   display: flex;
   align-items: center;
   justify-content: center;
