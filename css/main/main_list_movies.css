@@ -1,11 +1,15 @@
 main {
-  padding: 2em;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main .movies {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 main .movies h1 {

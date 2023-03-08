@@ -21,6 +21,7 @@ body {
 
 body:before {
   content: "";
+  height: 100vh;
   background-image: url(../images/background.jpg);
   position: absolute;
   background-size: cover;
@@ -50,7 +51,7 @@ header {
 main{
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 /*container pour le formulaire login*/
@@ -60,7 +61,7 @@ main{
   background: rgba(0, 0, 0, 0.7);
   border-radius: 7px;
   width: 375px;
-  height: 600px;
+  height: 500px;
   padding: 4em;
 }
 
