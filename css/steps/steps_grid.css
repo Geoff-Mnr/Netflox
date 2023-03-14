@@ -1,11 +1,13 @@
 /*structure de la page step3 un peu différente car il y a une grille*/
 .main_step3 {
+  width: 100%;
   height: auto;
 }
 
 /*container qui va englober toute la grille*/
 .steps_grid {
-  padding: 3rem;
+  margin-top: 2em;
+  margin-bottom: 2em; 
   width: 100%;
   display: flex;
   justify-content: center;
